@@ -1,5 +1,5 @@
 body *{
-    border: 1px solid red;
+    
     color: white;
 
 }
@@ -86,4 +86,43 @@ section li
 {
     font-family: 'Stick No Bills', sans-serif;
 
+}
+.pie-pagina
+{
+    width: 100%;
+    background-color: rgb(24, 201, 142);
+
+}
+.pie-pagina .grupo-1
+{
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box h2
+{
+    color:white;
+    margin-bottom:25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p
+{
+    color:#efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 -red-social a
+{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:#ffffff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
 }
