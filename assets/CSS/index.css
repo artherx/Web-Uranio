@@ -22,7 +22,7 @@ a{
 }
 
 nav{
-    max-width: 900px;
+    max-width: auto;
     margin: auto;
     background-color: #0a1a2a;
     font-size: 20px;
@@ -201,4 +201,9 @@ section li
 
 }
 
+}
+.carnoso{
+    height: 30px;
+    text-align: 12px;
+    background-color:#0a1a2a;
 }
