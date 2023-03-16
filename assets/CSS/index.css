@@ -9,6 +9,7 @@ a{
 }
 .fondo{
     background: #4D545C;
+    font-family: 'Stick No Bills', sans-serif;
 }
 
 header{
@@ -17,12 +18,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-family: 'Russo One', sans-serif;
+    
 }
 header h1{
     font-size: 24px;
     text-align: left;
-    
+    font-family: 'Russo One', sans-serif;
 }
 
 .perfil {
@@ -34,11 +35,13 @@ header h1{
     text-align: center;
     margin-right: 10px;
     
+    
 }
 
 .perfil img{
     width: 100%;
     height: auto;
+    
 
 }
 
@@ -49,9 +52,17 @@ header h1{
     padding: 10px;
     font-family: 'Russo One', sans-serif;
 }
-section{
+section
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
+    
+}
+section li
+{
+    font-family: 'Stick No Bills', sans-serif;
+
 }
