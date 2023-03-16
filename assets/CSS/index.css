@@ -57,20 +57,31 @@ section
     overflow: hidden;
 }
 
-.colImg{
+.colImg {
     display: flex;
     flex-wrap: wrap;
-}
-.colImg article {
+  }
+  
+  .colImg article {
     width: 28%;
     margin: 10px;
-}
-.colImg h3 {
-    margin: 0;
     text-align: center;
-      
-    
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .colImg article img {
+    margin-bottom: 10px;
+  }
+  
+  .colImg article h3 {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
 section li
 {
     font-family: 'Stick No Bills', sans-serif;
