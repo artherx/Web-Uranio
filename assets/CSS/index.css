@@ -7,6 +7,28 @@ body *{
 a{
     text-decoration-line: none;
 }
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li{
+    display: block;
+    padding: 15px, 20px;
+}
+.menu-horizontal >li:hover{
+    background:#0d2033;
+}
+
 .fondo{
     background: #4D545C;
     font-family: 'Stick No Bills', sans-serif;
@@ -41,8 +63,6 @@ header h1{
 .perfil img{
     width: 100%;
     height: auto;
-    
-
 }
 
 .hero{
