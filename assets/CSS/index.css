@@ -58,15 +58,13 @@ section
 }
 
 .colImg{
-    float: left;
-    width: calc(33.33% - 10px);
-    margin-right: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.colImg img {
-    display: block;
-    width: 100%;
-}
+.colImg article {
+    width: 28%;
+    margin: 10px;
+  }
   
 .colImg h3 {
     margin: 0;
