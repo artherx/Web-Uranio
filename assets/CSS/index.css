@@ -1,8 +1,12 @@
 body *{
     border: 1px solid red;
     color: white;
+    font-family: "Arial", sans-serif;
 }
 
+a{
+    text-decoration-line: none;
+}
 .fondo{
     background: #4D545C;
 }
@@ -35,4 +39,17 @@ header h1{
     width: 100%;
     height: auto;
 
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
