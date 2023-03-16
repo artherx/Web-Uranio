@@ -3,7 +3,12 @@ body *{
 
 }
 
+.fondo{
+    background: #4D545C;
+}
+
 header{
+    background: #76A5DB;
     display: flex;
     justify-content: space-between;
     align-items: center;
