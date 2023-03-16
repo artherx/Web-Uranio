@@ -1,7 +1,7 @@
 body *{
     border: 1px solid red;
     color: white;
-    
+
 }
 
 a{
@@ -50,15 +50,27 @@ header h1{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-family: 'Russo One', sans-serif;
 }
 section
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    
+    overflow: hidden;
+}
+
+.colImg{
+     float: left;
+  width: calc(33.33% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.colImg img {
+    display: block;
+    width: 100%;
+  }
+  
+.colImg h3 {
+    margin: 0;
+    text-align: center;
+      
     
 }
 section li
