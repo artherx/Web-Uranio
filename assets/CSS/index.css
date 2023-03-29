@@ -22,8 +22,6 @@ a{
 }
 
 nav{
-    max-width: auto;
-    margin: auto;
     background-color: #0a1a2a;
     font-size: 20px;
     margin-top: 50px;
@@ -39,7 +37,7 @@ nav{
     padding: 15px, 20px;
 }
 .menu-horizontal >li:hover{
-    background:#0d2033;
+    background:#162f49;
 }
 
 
@@ -57,6 +55,8 @@ nav{
 
 .fondo{
     background: rgb(53, 111, 119);
+    display: flex;
+    flex-direction: column;
     font-family: 'Stick No Bills', sans-serif;
 }
 
@@ -66,30 +66,24 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    
+    font-family: 'Russo One', sans-serif;
     
 }
 header h1{
     font-size: 24px;
-    text-align: left;
-    font-family: 'Russo One', sans-serif;
 }
 
 .perfil {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    overflow: hidden;
-    float: right;
-    text-align: center;
     margin-right: 10px;
-    
-    
 }
 
 .perfil img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 100%;
 }
 
 .hero{
@@ -98,6 +92,7 @@ header h1{
     align-items: center;
     padding: 10px;
     font-family: 'Russo One', sans-serif;
+    margin: 20px;
 }
 section
 {
@@ -108,27 +103,24 @@ section
     display: flex;
     flex-wrap: wrap;
 }
-  
-  .colImg article {
+
+.colImg article {
     width: 28%;
-    margin: 10px;
-    text-align: center;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .colImg article img {
+}
+.colImg article img {
     margin-bottom: 10px;
-  }
-  
-  .colImg article h3 {
+}
+
+.colImg article h3 {
     margin: 0;
     margin-top: 10px;
     text-align: center;
-  }
-  
+} 
 section li
 {
     font-family: 'Stick No Bills', sans-serif;
