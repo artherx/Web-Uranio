@@ -28,18 +28,16 @@ nav{
 }
 
 .menu-horizontal{
-    list-style: none;
     display: flex;
     justify-content: space-around;
 }
 .menu-horizontal > li{
     display: block;
-    padding: 15px, 20px;
+    padding: 15px 20px;
 }
 .menu-horizontal >li:hover{
     background:#162f49;
 }
-
 
 .menu-vertical{
     position: absolute;
@@ -48,10 +46,37 @@ nav{
     width: 200px;
     background-color: rgba(0, 0, 0, .5);
 }
-
 .menu-horizontal li:hover .menu-vertical{
     display: block;
 }
+
+
+
+.menu-hori{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-hori > li{
+    display: block;
+    padding: 15px 20px;
+}
+.menu-hori >li:hover{
+    background:#162f49;
+}
+
+.menu-verti{
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-hori li:hover .menu-verti{
+    display: block;
+}
+
+
+
 
 .fondo{
     background: rgb(53, 111, 119);
